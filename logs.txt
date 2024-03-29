@@ -1,0 +1,110 @@
+master branch ->
+
+commit ba804726c6913407c54f859ac25d6a83c5bf36bf (HEAD -> master, origin/master)
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 21:23:16 2024 +0100
+
+    Final commit
+
+commit 3d3e8d9c48d80dd3abb59114e2471dbdd84947d6 (origin/bug2, bug2)
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 20:22:47 2024 +0100
+
+    Call method makeBigStringFrom and filterOddStrings in main class
+
+commit b6f2811c5a051eba29ec01ff1f01bd806fd637cf
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 19:54:14 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+commit ab97d31a517ea1b5ce5d7f0ad535487c44e0fe4a (origin/bug1, bug1)
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 20:02:30 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit 2dcf570714044011c1860cc3ef9e2e3f21e5e744
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 19:35:50 2024 +0100
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 618e6b3b0153e3ce2b5eeaa245714297a6fa1df2
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 19:11:01 2024 +0100
+
+    Add starter code
+
+commit 34c863f95020ba809a0ab5555d4a5f072117fbf7
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Thu Mar 28 20:43:16 2024 +0100
+
+    Initial commit
+
+
+
+bug1 branch -> 
+
+commit ab97d31a517ea1b5ce5d7f0ad535487c44e0fe4a (HEAD -> bug1, origin/bug1)
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 20:02:30 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit 2dcf570714044011c1860cc3ef9e2e3f21e5e744
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 19:35:50 2024 +0100
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 618e6b3b0153e3ce2b5eeaa245714297a6fa1df2
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 19:11:01 2024 +0100
+
+    Add starter code
+
+commit 34c863f95020ba809a0ab5555d4a5f072117fbf7
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Thu Mar 28 20:43:16 2024 +0100
+
+    Initial commit
+
+
+bug2 branch -> 
+
+commit 3d3e8d9c48d80dd3abb59114e2471dbdd84947d6 (HEAD -> bug2, origin/bug2)
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 20:22:47 2024 +0100
+
+    Call method makeBigStringFrom and filterOddStrings in main class
+
+commit b6f2811c5a051eba29ec01ff1f01bd806fd637cf
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 19:54:14 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+commit ab97d31a517ea1b5ce5d7f0ad535487c44e0fe4a (origin/bug1, bug1)
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 20:02:30 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit 2dcf570714044011c1860cc3ef9e2e3f21e5e744
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 19:35:50 2024 +0100
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 618e6b3b0153e3ce2b5eeaa245714297a6fa1df2
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Fri Mar 29 19:11:01 2024 +0100
+
+    Add starter code
+
+commit 34c863f95020ba809a0ab5555d4a5f072117fbf7
+Author: Ljubomir Ilievski <ilievski.ljubomir@gmail.com>
+Date:   Thu Mar 28 20:43:16 2024 +0100
+
+    Initial commit

@@ -1,0 +1,52 @@
+4. git init -> Го прави нашиот директориум во гит директориум и додава скриен директориум кој што се вика .git за менаџирање со фајловиите
+
+5. git remote add origin https://github.com/Ljubomir-Ilievski/SI_2024_lab1_223137.git -> Додава нов remote репозиториум од кој што може да се прави pull/push
+
+6. git add . -> Додавање на README дадотеката во staging area, и git commit -m "inicial commit" за зоздавање на самиот commit.
+
+7. git commit -m "Add starter code" од како се додаваат сите со во stage со git add . (точката ги додава сите modified фајлови)
+
+8. git push --set-upstream origin master -> воедно поставување на промените на remote repo и поставување на default upstream на гранката master од origin
+сега следните git push без аргументи ќе ги постават промените на master гранката дефолтно.
+
+9. Додека Head ни е на master гранката извршуваме git branch bug1 и git branch bug2, за соодветно да разграниме две гранки со имиња bug1 и bug2 од master.
+
+10. git checkout bug1 -> Префрлање на гранката bug1
+
+11. Од како е поправен багот и поставен фајлот на сцена се прави git commit -m "Fix wrong condition in filterOddLengthStrings"
+
+12. git checkout bug2 -> Префрлање на Head на гранката bug2
+
+13. Од како е поправен багот и поставен фајлот на сцена се прави git commit -m "Fix wrong condition in makeBigStringFrom"
+
+14. git checkout bug1
+
+15. Од како е поставен соодветниот повик кон статичната метотда се комитнува со git commit -m "Call method filterOddLengthStrings in main"
+
+16. git checkout bug2
+
+17. git commit -m "Call method makeBigStringFrom in main class" -> Додавање на нов комит на гранката bug2
+
+18. push origin bug1 и push origin bug2 соодветно ќе ги пренесе промените од local repo до remote repo, односно ќе додаде две нови гранки на remote-од bug1 i bug2.
+
+19. git checkout master
+
+20. git merge bug1, Командата се извршува на гранката master, процесот на спојување е на праве со Fast Forward начинот поради тоа што нема нови комити на master од кога е разгранета 
+bug1, исто така нема ни никакви конфликти.
+
+21. git push -> синхронизација на master со origin/master
+
+22. git checkout bug2
+
+23. git rebase master -> При правење на rebase-от има конфликт во SILab1Main на 16 линија има повик и од едниот метод и од другиот, го разрешив конфликот така што ги оставив двата повика од двете методи
+соодветно поставив нова commit порака на разрешениот commit и го завршив rebase-от со git rebase --continue.
+
+24. git checkout master
+
+25. git merge bug2 -> Поради предходниот rebase на bug2 со master сега овој merge ќе биде со Fast Forward принципот и успешно ќе заврши без конфликт
+
+26. git push, git push origin bug1, git push origin bug2
+
+28. git add 223137.txt logs.txt па git commit -m "Final Commit"
+
+29. git push -> За крај
